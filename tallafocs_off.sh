@@ -1,26 +1,5 @@
 #!/bin/sh
-# 
-# rc.flush-iptables - Reinicia iptables a sus valores por defecto.
-# 
-# Copyright (C) 2001  Oskar Andreasson <bluefluxATkoffeinDOTnet>
-#
-# Este programa es software libre; puedes redistribuirlo y/o modificarlo
-# bajo los términos expresados en la "GNU General Public License", tal como
-# lo publica la Free Software Foundation; versión 2 de la Licencia.
-#
-# Este programa se distribuye con el deseo de que sea útil, pero
-# SIN NINGUNA GARANTÍA; incluso sin garantía implícita de COMPRA-VENTA
-# o ADECUACIÓN A PROPÓSITO PARTICULAR. Para más detalles, referirse a la
-# GNU General Public License.
-#
-# Deberías haber recibido una copia de la GNU General Public License
-# junto a este programa o desde el sitio web de dónde lo bajaste;
-# si no es así, escribe a la Free Software Foundation, Inc., 59 Temple
-# Place, Suite 330, Boston, MA  02111-1307   USA
 
-#
-# Configuraciones.
-#
 IPTABLES="/sbin/iptables"
 
 #
