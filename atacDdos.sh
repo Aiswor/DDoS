@@ -1,14 +1,8 @@
 #!/bin/bash
 
-#----------------------------------------#
-# Objectiu: simulació d'un atac DDos
-# Autor: Emili Pla Sanchis
-# abril de 2017
-#----------------------------------------#
-
 # Variable 1--> num.procesos
 # Variable 2--> IP
-# Variable 3--> tamanyo
+# Variable 3--> size
 # Variable 4--> intervalo de tiempo
 
 for (( i=1;i<=$1;i++ )) 
